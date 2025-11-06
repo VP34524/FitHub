@@ -1,6 +1,6 @@
 // import React from 'react';
 import { Link } from 'react-router';
-import { Dumbbell, Github, Twitter, Instagram } from 'lucide-react';
+import { Dumbbell, Github, Twitter, Instagram, Linkedin } from 'lucide-react';
 import { ThemeConfig } from '../types';
 
 interface FooterProps {
@@ -34,7 +34,7 @@ export function Footer({ theme }: FooterProps) {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-white/80">
-              <li>Email: contact@fithub.ai</li>
+              <li>Email: abc@gmail.com</li>
               <li>Phone: +91 12345-67890</li>
               <li>Address: 123 xyz street</li>
             </ul>
@@ -49,7 +49,10 @@ export function Footer({ theme }: FooterProps) {
               <a href="https://www.instagram.com/" target="_blank" className="hover:text-white/80 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="hover:text-white/80 transition-colors">
+              <a href="https://www.linkedin.com/" target="_blank" className="hover:text-white/80 transition-colors">
+                <Linkedin size={20} />
+              </a>
+              <a href="https://github.com/" target="_blank" className="hover:text-white/80 transition-colors">
                 <Github size={20} />
               </a>
             </div>
