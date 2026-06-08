@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { UserData } from '../types';
-import { generateFitnessContent } from '../lib/gemini';
+import { generateFitnessContent } from '../lib/gemini.ts';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 

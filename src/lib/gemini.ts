@@ -10,7 +10,7 @@ export async function generateFitnessContent(userData: {
   weightGoal: string;
   workoutTime: number;
 }) {
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash' });
 
   const prompt = `Generate a structured, HTML-formatted personalized fitness and nutrition plan for a user with:
     - Age: ${userData.age}
